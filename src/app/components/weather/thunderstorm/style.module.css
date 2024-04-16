@@ -1,0 +1,38 @@
+
+  
+.container{
+    position: relative;
+        width: 15vw;
+        padding: 8%;
+        height: 30vh;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        overflow: hidden;
+        background-color: #534f4f47;
+    }
+    
+    
+    .raindrop {
+        position: absolute;
+        width: 1px;
+        height: 15px;
+        background-color: rgb(98, 140, 171);
+        animation: fall 0.7s linear infinite;
+        
+      }
+    
+      @keyframes fall {
+        0% {
+          transform: translateY(0px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(20vh);
+          opacity: 1;
+        }
+    
+    
+    }

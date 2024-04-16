@@ -11,7 +11,10 @@
 html {
   height: 100%;
 }
-
+.allWeathers{
+  display: flex;
+  flex-wrap: wrap;
+}
 body {
   height: 100%;
   margin: 0;
